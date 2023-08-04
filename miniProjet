@@ -1,14 +1,167 @@
 <!DOCTYPE html>
-  <html lang="fr">
-    <head>
-      <title>premierProjet</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style.css">
-          </head>
-    <body>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylep.css">
+    <title>Premier Projet</title>
+</head>
+<body>
+    <nav>
+        <ul id="menu">
+            <li class="menu-bar"><a href="#">ACCEUIL</a></li>
+            <li class="menu-bar"><a href="#about">A PROPOS</a></li>
+            <li class="menu-bar"><a href="#">BLOG</a></li>
+            <li class="menu-bar"><a href="#coures">COURSES</a></li>
+            <li class="menu-bar"><a href="#contact">CONTACTEZ-NOUS</a></li>
+        </ul>
+    </nav>
 
+    <header>
+        <h1>قال اللَّهُ عز وجل:  يرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ </h1>
+    </header>
     
-    <p class="bd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatem!</p>
-    </body>
+    <main>
+        <div class="top">
+            <a href="#menu"><i class="fa-solid fa-turn-up"></i></a> 
+           </div>
+    <div class="caracters">
+        <h1>Les avantages des cours en ligne</h1>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 cara">
+                    <h3><i class="fa-solid fa-list-check"></i> Disponibilité:</h3>
+                    
+                    <p>La formations en ligne est aujourd'hui facilement accessible et est destinée à <em><b>tous les types 
+                        de publics </em></b>: étudiants venant du monde entier, personnes actives, demandeurs d’emploi 
+                        ou encore personnes en reconversion professionnelle.</p>
+                        <p>Cela permet de suivre le programme depuis chez soi, sur son lieu de travail ou en mobilité, 
+                            sans avoir la contrainte de se déplacer à l’école.</p>
+                </div>
+                <div class="col-lg-3 cara">
+                <h3><i class="fa-solid fa-user-clock"></i> Flexibilité:</h3>
+                
+                    <p>Les cours suivis à distance offrent une plus grande <b>flexibilité</b> sur les horaires. Il est plus facile pour ceux 
+                        qui ont une activité professionnelle ou ceux qui suivent un double cursus de gérer leur emploi du temps grâce 
+                        à cette nouvelle forme de pédagogie.</p>
+                        <p>suivre des cours à distance permet :
+                        <ul>
+                            <li><strong>de se former,</strong></li>
+                            <li><strong>d’acquérir de nouvelles compétences,</strong></li>
+                            <li><strong>de se perfectionner</strong></li>
+                            <li><strong>de préparer un diplôme de façon relativement autonome en fonction de ses 
+                        contraintes personnelles</strong></li>
+                        </ul></p>
+                </div>
+                <div class="col-lg-3 cara">
+                <h3><i class="fa-solid fa-clock"></i> Gain du temps:</h3>
+                
+                    <p>Ce type de formation met à disposition des étudiants un accès aux outils nécessaires pour gagner en autonomie mais
+                         également un accompagnement par des professeurs. <b>Chacun avance à son rythme</b>, adapte son temps de travail et 
+                         ses apprentissages tout en bénéficiant d’un suivi personnalisé avec un coach pédagogique. </p>
+                         <p>L’e-learning permet la mise à disposition de contenus pédagogiques variés (vidéos, questionnaires, podcasts, devoirs, tutorat, etc.)
+                          qui permettent à l’apprenant d’apprendre en fonction de son niveau et de son rythme d’apprentissage.</p>
+                </div>
+                <div class="col-lg-3 cara">
+
+                    <h3><i class="fa-solid fa-sack-dollar"></i> Le cout:</h3>
+                    
+                    <p>Comme évoqué précédament, le E-learning induisent des avantages logistiques quant à leur flexibilité, et permettent ainsi 
+                    un réel gain de temps. Au-delà des avantages logistiques, les formations en ligne sont <b>un excellent moyen de réaliser
+                     des économies</b>.<div class="argent" >D'argent cette Fois-ci! </div>
+                    <p>Vous n’avez plus besoin non plus de payer les frais de déplacement des formateurs ou de vos collaborateurs, de louer 
+                     une salle ou de réaliser des impressions de polycopiés.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- <h1 id="coures" class="coures">les Coures:</h1> -->
+
+
+
+
+
+
+<div id="about" class="about-me">
+   
+    <h2>Fatima Zahra BOUHAJA</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta cum possimus voluptas ab nobis fuga reprehenderit deleniti libero sint. Amet doloremque similique dolorum veniam nostrum molestias alias corporis blanditiis, fuga suscipit assumenda nam earum delectus eveniet molestiae a accusamus deserunt ratione illum repudiandae corrupti quidem sint? Maiores rerum ut necessitatibus?</p>
+    <div class="moi">
+        <div class="image">
+            <img src="images/Certificate/Edraak.jpg" alt="Edraak">
+        شهادة مسلمة من منصة إدراك
+        </div>
+
+        <div class="image">
+            <img src="images/Certificate/mahara-tech.jpg" alt="mahara tech">
+        "شهادة مسلمة من منصة "مهارة تيك
+        </div>
+
+        <div class="image">
+            <img src="images/Certificate/sololearn .jpg" alt="solo learn">
+        شهادة مسلمة من تطبيق solo Learn
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="contact-me">
+    <h2>Contactez-Moi</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.</p>
+           <div class="contact-form"> 
+                <form action="">
+
+                    <div class="form-input">
+                        <label for="">Nom:</label>
+                        <input type="text" placeholder="Entrez-votre nom">
+                    </div>
+
+                    <div class="form-input">
+                        <label for="">E-Mail:</label>
+                        <input type="email" placeholder="Entrez-votre E-Mail">
+                    </div>
+                    
+                    <div class="form-input">
+                        <label for="">Message</label>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Ecrivez-Moi ..."></textarea>
+                
+                    <div class="action">
+                        <button type="submit" class="send">Envoyé ...</button>
+                    </div>
+                
+                </form>
+            </div>
+</div>
+
+<footer>
+    <a href="#">Tous droits réservés 2023 - par Fatima Zahra BOUHAJA
+</footer>
+
+
+
+
+</main>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/64cc68fbcc26a871b02d269c/1h6v7k5qg';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
 </html>
